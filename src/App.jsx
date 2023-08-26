@@ -1,6 +1,7 @@
 import Appointment from "./components/Appointment";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Prices from "./components/Prices";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <Header />
     <Hero />
     <Appointment />
+    <Prices />
     <div className="h-[2000px]">     
     </div>
   </div>;

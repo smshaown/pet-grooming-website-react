@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Prices = () => {
-  return <div>Prices</div>;
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
 export default Prices;
