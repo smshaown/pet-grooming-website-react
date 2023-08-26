@@ -33,7 +33,7 @@ export const heroSlider = [
   {
     id: 1,
     title: 'We take care of your pet.',
-    image: <HeroSlideImage1 />,
+    image: "https://i.ibb.co/vjJF2xG/dog-slide-1.png",
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
     buttonText: 'Get an appointment',
@@ -41,7 +41,7 @@ export const heroSlider = [
   {
     id: 2,
     title: 'Lorem ipsum dolor sit.',
-    image: <HeroSlideImage2 />,
+    image: "https://i.ibb.co/09cMPrj/dog-slide-2.png",
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
     buttonText: 'Get an appointment',
@@ -49,7 +49,7 @@ export const heroSlider = [
   {
     id: 3,
     title: 'Nunc odio in et, lectus sit.',
-    image: <HeroSlideImage3 />,
+    image: "https://i.ibb.co/KzNPY9j/dog-slide-3.png",
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
     buttonText: 'Get an appointment',
@@ -59,7 +59,7 @@ export const heroSlider = [
 export const bundleData = [
   {
     id: 1,
-    image: <DogCateg1 />,
+    image: {DogCateg1},
     name: 'small',
     dogCategory: '1 - 9 kg',
     services: [
@@ -97,7 +97,7 @@ export const bundleData = [
   {
     id: 2,
     name: 'medium',
-    image: <DogCateg2 />,
+    image: {DogCateg2},
     dogCategory: '10 - 19 kg',
     services: [
       {
@@ -134,7 +134,7 @@ export const bundleData = [
   {
     id: 3,
     name: 'big',
-    image: <DogCateg3 />,
+    image: {DogCateg3},
     dogCategory: '20 - 29 kg',
     services: [
       {
@@ -171,7 +171,7 @@ export const bundleData = [
   {
     id: 4,
     name: 'super',
-    image: <DogCateg4 />,
+    image: {DogCateg4},
     dogCategory: '30 - 39 kg',
     services: [
       {
@@ -207,17 +207,17 @@ export const bundleData = [
   },
 ];
 
-export const social = [
-  {
-    icon: <AiFillYoutube />,
-    href: '#',
-  },
-  {
-    icon: <AiFillInstagram />,
-    href: '#',
-  },
-  {
-    icon: <AiFillGithub />,
-    href: '#',
-  },
-];
+// export const social = [
+//   {
+//     icon: <AiFillYoutube />,
+//     href: '#',
+//   },
+//   {
+//     icon: <AiFillInstagram />,
+//     href: '#',
+//   },
+//   {
+//     icon: <AiFillGithub />,
+//     href: '#',
+//   },
+// ];
