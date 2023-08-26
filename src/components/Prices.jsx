@@ -12,9 +12,15 @@ const Prices = () => {
   const [bundles, setBundles] = useState([]);
   
   useEffect(() => {
-    // setBundles(bundleData)
-    console.log(bundleData)
+    setBundles(bundleData[0].services)
   })
+
+  const getBundle = (name) => {
+    const newBundle = bundleData.find((bundle) => {
+      return bundle.name === name;
+    })
+    setBundles(newBundle.services)
+  }
   
 
   return (
@@ -32,7 +38,11 @@ const Prices = () => {
             // destructure item 
             const {name, image, dogCategory} = item; 
             return(
-              <div onClick={() => setIndex(idx)} className='cursor-pointer text-center'>
+              <div onClick={() => {
+                setIndex(idx);
+                getBundle(name)
+                } }
+                 className='cursor-pointer text-center'>
                 {/* image  */}
                 <div className='mb-2 lg:mb-8 hover:scale-105 transition-all duration-300'>
                   <img className='w-full' src={image} alt="" />
@@ -49,7 +59,7 @@ const Prices = () => {
         </div>    
         
         {/* bundles  */}
-        <Bundles />
+        <Bundles bundles={bundles}  />
       </div>
     </section>
   );

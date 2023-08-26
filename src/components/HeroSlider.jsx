@@ -27,7 +27,7 @@ const HeroSlider = () => {
         className='heroSlider'
         >
       {heroSlider.map((slide, index) => {
-        console.log(slide)
+   
         // destructure slide 
         const {title, subtitle, image, buttonText} = slide;
         return <SwiperSlide className='py-12 lg:py-16' key={index}>
