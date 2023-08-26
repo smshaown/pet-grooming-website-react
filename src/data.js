@@ -59,7 +59,7 @@ export const heroSlider = [
 export const bundleData = [
   {
     id: 1,
-    image: {DogCateg1},
+    image: "https://i.ibb.co/pWkvDfR/dog-categ-1.png",
     name: 'small',
     dogCategory: '1 - 9 kg',
     services: [
@@ -97,7 +97,7 @@ export const bundleData = [
   {
     id: 2,
     name: 'medium',
-    image: {DogCateg2},
+    image: "https://i.ibb.co/5YX4kmP/dog-categ-2.png",
     dogCategory: '10 - 19 kg',
     services: [
       {
@@ -134,7 +134,7 @@ export const bundleData = [
   {
     id: 3,
     name: 'big',
-    image: {DogCateg3},
+    image: "https://i.ibb.co/34bYRm3/dog-categ-3.png",
     dogCategory: '20 - 29 kg',
     services: [
       {
@@ -171,7 +171,7 @@ export const bundleData = [
   {
     id: 4,
     name: 'super',
-    image: {DogCateg4},
+    image: "https://i.ibb.co/sWCMsv4/dog-categ-4.png",
     dogCategory: '30 - 39 kg',
     services: [
       {
